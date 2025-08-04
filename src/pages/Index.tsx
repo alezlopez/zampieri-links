@@ -9,6 +9,13 @@ const Index = () => {
       <div className="max-w-md mx-auto space-y-6">
         {/* Header */}
         <div className="text-center mb-8">
+          <div className="flex justify-center mb-4">
+            <img 
+              src="/lovable-uploads/48bc1842-7d21-482f-9b13-d3f603a21e8b.png" 
+              alt="Logo Colégio Zampieri" 
+              className="h-20 w-auto"
+            />
+          </div>
           <h1 className="text-3xl font-bold text-primary mb-2">
             Links Úteis
           </h1>
