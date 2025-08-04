@@ -127,7 +127,7 @@ const Index = () => {
               href="https://drive.google.com/file/d/1kED2Y4LBAyVkI6Zf8MJ9fTnGMNVoFEGg/view?usp=sharing"
               variant="secondary"
             >
-              Relação de 'tios'
+              Relação de transportes
             </LinkButton>
           </CardContent>
         </Card>
