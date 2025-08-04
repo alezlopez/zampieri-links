@@ -13,7 +13,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/48bc1842-7d21-482f-9b13-d3f603a21e8b.png" 
               alt="Logo Colégio Zampieri" 
-              className="h-20 w-auto"
+              className="h-28 w-auto"
             />
           </div>
           <h1 className="text-3xl font-bold text-primary mb-2">
