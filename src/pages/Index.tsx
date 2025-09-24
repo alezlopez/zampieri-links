@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { LinkButton } from "@/components/LinkButton";
-import { GraduationCap, ShirtIcon, Bus } from "lucide-react";
+import { GraduationCap, ShirtIcon, Bus, BookOpen } from "lucide-react";
 
 const Index = () => {
   return (
@@ -92,6 +92,24 @@ const Index = () => {
               variant="primary"
             >
               Ensino Médio
+            </LinkButton>
+          </CardContent>
+        </Card>
+
+        {/* Materiais Didáticos */}
+        <Card className="border-primary/20">
+          <CardHeader className="pb-4">
+            <CardTitle className="flex items-center gap-2 text-primary">
+              <BookOpen className="h-5 w-5" />
+              Materiais Didáticos
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <LinkButton 
+              href="https://drive.google.com/file/d/1KraRfuuvURfOiFuHkNRUoZKZhsE0ef3i/view?usp=sharing"
+              variant="primary"
+            >
+              Materiais Didáticos
             </LinkButton>
           </CardContent>
         </Card>
