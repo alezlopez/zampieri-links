@@ -24,6 +24,24 @@ const Index = () => {
           </h2>
         </div>
 
+        {/* Materiais Didáticos */}
+        <Card className="border-primary/20">
+          <CardHeader className="pb-4">
+            <CardTitle className="flex items-center gap-2 text-primary">
+              <BookOpen className="h-5 w-5" />
+              Materiais Didáticos
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <LinkButton 
+              href="https://drive.google.com/file/d/1KraRfuuvURfOiFuHkNRUoZKZhsE0ef3i/view?usp=sharing"
+              variant="primary"
+            >
+              Materiais Didáticos
+            </LinkButton>
+          </CardContent>
+        </Card>
+
         {/* Lista de Materiais */}
         <Card className="border-primary/20">
           <CardHeader className="pb-4">
@@ -92,24 +110,6 @@ const Index = () => {
               variant="primary"
             >
               Ensino Médio
-            </LinkButton>
-          </CardContent>
-        </Card>
-
-        {/* Materiais Didáticos */}
-        <Card className="border-primary/20">
-          <CardHeader className="pb-4">
-            <CardTitle className="flex items-center gap-2 text-primary">
-              <BookOpen className="h-5 w-5" />
-              Materiais Didáticos
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <LinkButton 
-              href="https://drive.google.com/file/d/1KraRfuuvURfOiFuHkNRUoZKZhsE0ef3i/view?usp=sharing"
-              variant="primary"
-            >
-              Materiais Didáticos
             </LinkButton>
           </CardContent>
         </Card>
