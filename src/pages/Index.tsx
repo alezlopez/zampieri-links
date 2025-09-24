@@ -29,7 +29,7 @@ const Index = () => {
           <CardHeader className="pb-4">
             <CardTitle className="flex items-center gap-2 text-primary">
               <BookOpen className="h-5 w-5" />
-              Materiais Didáticos - 2026
+              Materiais Didáticos SAE DIGITAL
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -37,7 +37,7 @@ const Index = () => {
               href="https://drive.google.com/file/d/1KraRfuuvURfOiFuHkNRUoZKZhsE0ef3i/view?usp=sharing"
               variant="primary"
             >
-              Materiais Didáticos - 2026
+              Materiais Didáticos 
             </LinkButton>
           </CardContent>
         </Card>
