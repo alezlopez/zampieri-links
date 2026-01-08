@@ -32,12 +32,18 @@ const Index = () => {
               Materiais Didáticos SAE DIGITAL
             </CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="space-y-3">
             <LinkButton 
               href="https://drive.google.com/file/d/1KraRfuuvURfOiFuHkNRUoZKZhsE0ef3i/view?usp=sharing"
               variant="primary"
             >
               Materiais Didáticos 
+            </LinkButton>
+            <LinkButton 
+              href="https://material.olaisaac.io/material/zampieri-colegio"
+              variant="primary"
+            >
+              Compre Aqui
             </LinkButton>
           </CardContent>
         </Card>
